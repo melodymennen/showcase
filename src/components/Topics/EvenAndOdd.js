@@ -22,7 +22,7 @@ class EvenAndOdd extends Component {
             if (arr[i]%2===0){
                 evens.push(parseInt(arr[i],10))
             }
-            else if (arr[i]%2!==0){
+            else {
                 odds.push(parseInt(arr[i],10))
             }
         }
