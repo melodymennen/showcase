@@ -29,7 +29,14 @@ class FilterObject extends Component {
     }
 
     filterArray(userInput){
-        
+        var unFilteredArray= this.state.unFilteredArray
+        var filteredArray = []
+        for (let i=0;i<unFilteredArray.length;i++){
+            if (unFilteredArray[i].hasOwnProperty(userInput)) {
+                filteredArray.push(unFilteredArray[i])
+            }
+        }
+        this.setState({filteredArray:filteredArray})
     }
     
     render() {
