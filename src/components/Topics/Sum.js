@@ -4,9 +4,9 @@ class Sum extends Component {
 
     
     render() {
-        // return (
-            
-        // )
+        return (
+            <div></div>
+        )
     }
 }
 
