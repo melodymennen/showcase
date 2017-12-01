@@ -4,9 +4,9 @@ class FilterObject extends Component {
 
     
     render() {
-        return (
-            <p>FilterObject Component</p>
-        )
+        // return (
+            
+        // )
     }
 }
 

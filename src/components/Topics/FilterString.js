@@ -4,9 +4,9 @@ class FilterString extends Component {
 
     
     render() {
-        return (
-            <p>FilterString Component</p>
-        )
+        // return (
+            
+        // )
     }
 }
 

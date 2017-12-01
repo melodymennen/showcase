@@ -4,9 +4,9 @@ class Palindrome extends Component {
 
     
     render() {
-        return (
-            <p>Palindrome Component</p>
-        )
+        // return (
+            
+        // )
     }
 }
 
