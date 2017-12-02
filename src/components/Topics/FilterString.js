@@ -18,9 +18,9 @@ class FilterString extends Component {
     filterArray(userInput){
         var unFilteredArray = this.state.unFilteredArray
         var filteredArray = []
-        for (let i=0;i<arr.length;i++){
-            if (arr[i].includes(userInput)){
-                filteredArray.push(arr[i])
+        for (let i=0;i<unFilteredArray.length;i++){
+            if (unFilteredArray[i].includes(userInput)){
+                filteredArray.push(unFilteredArray[i])
             }
         }
         this.setState({filteredArray:filteredArray})
